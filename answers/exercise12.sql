@@ -1,0 +1,4 @@
+ALTER TABLE Users
+RENAME COLUMN MiddleName to Initial,
+ALTER TABLE  Users
+MODIFY COLUMN Initial VARCHAR(64);
